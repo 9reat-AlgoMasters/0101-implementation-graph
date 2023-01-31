@@ -6,7 +6,6 @@ public class UndirectedGraph {
     
     public UndirectedGraph(int size) {
     	//TODO : 생성자 구현 -> adjList 초기화
-        adjList = new ArrayList[size + 1];
         for (int i = 0; i < size + 1; i++) {
             adjList[i] = new ArrayList<>();
         }

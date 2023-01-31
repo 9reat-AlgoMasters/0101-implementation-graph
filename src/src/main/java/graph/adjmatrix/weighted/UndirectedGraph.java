@@ -10,7 +10,7 @@ public class UndirectedGraph {
     
     public void addEdge(int v1, int v2, int weight) {
     	//TODO : 간선 추가 메서드 구현
-        adjMatrix[v1][v2] = weight;
-        adjMatrix[v2][v1] = weight;
+        adjMatrix[v1][v2] = 1;
+        adjMatrix[v2][v1] = 1;
     }
 }
